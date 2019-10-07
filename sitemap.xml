@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>http://open-src-soc.org/index.html</loc>
-        <lastmod>2019-10-04</lastmod>
+        <loc>https://gtmfs2020.github.io/index.html</loc>
+        <lastmod>2010-09-07</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>http://open-src-soc.org/programme.html</loc>
+        <loc>https://gtmfs2020.github.io/programme.html</loc>
         <lastmod>2019-10-04</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
