@@ -47,7 +47,94 @@
 <div id="main">
     <div class="content">
         <h1>Programme</h1>
-<p>Le programme est en cours de construction. Bientôt plus d'informations sur cette page !</p>
+<table>
+<tbody>
+<tr class="odd">
+<td>09h30</td>
+<td>—</td>
+<td>Accueil autour d'un café</td>
+</tr>
+<tr class="even">
+<td>10h00</td>
+<td>Christian Cadar</td>
+<td>Keynote. <a href="#cadar">Titre à venir</a>.</td>
+</tr>
+<tr class="odd">
+<td>11h00</td>
+<td>—</td>
+<td><em>Pause</em></td>
+</tr>
+<tr class="even">
+<td>11h20</td>
+<td>Barbara Fila Kordy</td>
+<td><a href="#fila cordy">Titre à venir</a>.</td>
+</tr>
+<tr class="odd">
+<td>12h05</td>
+<td>Itsaka Rakotonirina</td>
+<td><a href="#rakotonirina">Efficient verification of observational equivalences in finite-process calculi</a>.</td>
+</tr>
+<tr class="even">
+<td>12h35</td>
+<td>—</td>
+<td><em>Déjeuner</em></td>
+</tr>
+<tr class="odd">
+<td>14H00</td>
+<td>Cătălin Hrițcu</td>
+<td><a href="#hritcu">When Good Components Go Bad: Formally Secure Compilation Despite Dynamic Compromise</a>.</td>
+</tr>
+<tr class="even">
+<td>14h45</td>
+<td>Thomas Letan</td>
+<td><a href="#letan">Titre à venir</a>.</td>
+</tr>
+<tr class="odd">
+<td>15h15</td>
+<td>—</td>
+<td><em>Pause</em></td>
+</tr>
+<tr class="even">
+<td>15h35</td>
+<td>Patricia Mouy</td>
+<td><a href="#mouy">Use of formal methods in the Common Criteria Context</a>.</td>
+</tr>
+<tr class="odd">
+<td>16h20</td>
+<td>Johan Laurent</td>
+<td><a href="#laurent">Titre à venir</a>.</td>
+</tr>
+<tr class="even">
+<td>16h50</td>
+<td>les organisateurs</td>
+<td>Mot sur le GT</td>
+</tr>
+<tr class="odd">
+<td>17h00</td>
+<td>—</td>
+<td><em>Fin de la journée</em></td>
+</tr>
+</tbody>
+</table>
+<h1>Résumés des présentations</h1>
+<h3 id="cadar">Keynote</h3>
+<p><em><a href="http://www.doc.ic.ac.uk/~cristic/">Christian Cadar</a> – Imperial College London</em></p>
+<p>Résumé à venir</p>
+<h3 id="#fila cordy">Titre à venir</h3>
+<p><em><a href="https://people.irisa.fr/Barbara.Kordy">Barbara Fila (Kordy)</a> – IRISA</em></p>
+<h3 id="rakotonirina">Efficient verification of observational equivalences in finite-process calculi</h3>
+<p><em><a href="https://members.loria.fr/IRakotonirina/">Itsaka Rakotonirina</a> – INRIA - LORIA</em></p>
+<p><em>Abstract</em>. Security protocols are distributed programs used for circulating information remotely, especially for sensitive applications such as online banking, electronic voting–or any internet connection to any website. These protocols are notoriously hard to design and have a long history of flawed structures, making it possible for external parties controlling the communication network to bypass their security. In this work we are interested in automated proofs that a given protocol is privacy preserving for a chosen notion of privacy, and number of users. Such properties are usually modelled as behavioural equivalences in concurrent process calculi (e.g. variants of the pi-calculus). We implement the DeepSec prover, an automated tool deciding such equivalences, as well as powerful optimisations that reduced its verification time by several orders of magnitude by exploiting the process symmetries that naturally arise during practical verification.</p>
+<h3 id="hritcu">When Good Components Go Bad: Formally Secure Compilation Despite Dynamic Compromise</h3>
+<p><em><a href="https://prosecco.gforge.inria.fr/personal/hritcu/">Cătălin Hrițcu</a> – INRIA</em></p>
+<p><em>Abstract</em>. We propose a new formal criterion for evaluating secure compartmentalization schemes for unsafe languages like C and C++, expressing end-to-end security guarantees for software components that may become compromised after encountering undefined behavior—for example, by accessing an array out of bounds. Our criterion is the first to model dynamic compromise in a system of mutually distrustful components with clearly specified privileges. It articulates how each component should be protected from all the others—in particular, from components that have encountered undefined behavior and become compromised. To illustrate the model, we construct a secure compilation chain for a small unsafe language with buffers, procedures, and components, targeting a simple abstract machine with built-in compartmentalization. We propose a novel proof technique and give a machine-checked proof in Coq that this compiler satisfies our secure compilation criterion. Finally, we show that the protection guarantees offered by the compartmentalized abstract machine can be achieved at the machine-code level using either software fault isolation or a tag-based reference monitor.</p>
+<p><em>Catalin Hritcu is a researcher at Inria Paris where he works on security foundations. He is particularly interested in formal methods for security (secure compilation, compartmentalization, memory safety, security protocols, integrity, information flow), programming languages (program verification, proof assistants, type systems, semantics, formal metatheory, certified tools, property-based testing), and the design and verification of security-critical systems (reference monitors, secure compilation chains, secure hardware). He was awarded an ERC Starting Grant on formally secure compilation (<a href="https://secure-compilation.github.io">https://secure-compilation.github.io</a>), and is also actively involved in the design of the F* verification system (<a href="https://www.fstar-lang.org/">https://www.fstar-lang.org/</a>), which is used for building a formally verified HTTPS stack (<a href="https://project-everest.github.io">https://project-everest.github.io</a>). Catalin received a PhD from Saarland University in Saarbrücken, a Habilitation from ENS Paris, and was previously also a Research Associate at University of Pennsylvania and a Visiting Researcher at Microsoft Research Redmond.</em></p>
+<h3 id="letan">Titre à venir</h3>
+<p><em><a href="https://github.com/lthms">Thomas Letan</a> – ANSSI</em></p>
+<h3 id="mouy">Use of formal methods in the Common Criteria Context</h3>
+<p><em>Patricia Mouy – ANSSI</em></p>
+<h3 id="laurent">Titre à venir</h3>
+<p><em><a href="http://lcis.grenoble-inp.fr/themes/laurent-johan">Johan Laurent</a> – LCIS</em></p>
     </div> <!-- /content -->
 </div> <!-- /main -->
 
@@ -56,7 +143,7 @@
         Site generated by <a href="http://jaspervdj.be/hakyll">Hakyll</a>
         and <a href="http://johnmacfarlane.net/pandoc">pandoc</a>
         −
-         <a href="https://github.com/gtmfs2020/website/commits/master">Page last modified Fri, 4 Oct 2019 22:32:27 +0200</a> 
+         <a href="https://github.com/gtmfs2020/website/commits/master">Page last modified Fri, 22 Nov 2019 21:31:35 +0100</a> 
     </div>
 </footer>
 
